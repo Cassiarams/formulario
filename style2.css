@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(187, 194, 197);
+    font-family: sans-serif;
+    min-width: 314px;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+header{
+    margin: 17px;
+    border: 2px solid black;
+    padding: 1px;
+    text-align: center;
+    background-color: rgba(132, 132, 132, 0.597);
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+form{
+    margin: 15px;
+    /* width: 450px; */
+}
+
+.dadospessoais{
+    margin: 1.5rem;
+}
+
+fieldset{
+    margin-bottom: 5px;
+    padding: 5px;
+    display: flex;
+    border: 10px groove rgba(0, 0, 0, 0.435);
+}
+
+legend{
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+label{
+    display: inline-block;
+    margin: 5px;
+}
+
+input{
+    width: 90%;
+    padding: 5px;
+    margin: 2px;
+}
+
+select{
+    padding: 5px;
+    margin: 1;
+    width: 85%;
+}
